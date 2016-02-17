@@ -1,0 +1,1 @@
+<?php /* Silent is Golden*/
