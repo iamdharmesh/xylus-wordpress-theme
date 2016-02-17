@@ -29,7 +29,7 @@ Xylus allows you display links to your social media profiles, like Twitter and F
 3. Add links to each of your social services.
 4. Icons for your social links will automatically in your site's footer.
 
-#Available icons: (Linking to any of the following sites will automatically display its icon in your social menu).
+#Available Social icons:
 
 * Facebook
 * GitHub
