@@ -1,18 +1,16 @@
 /*Theme Name: Xylus
 Theme URI: http://xylusinfo.com/xylus
 Author: Gadhavi Technologies
-Author URI: http://xylusinfo.com
-Description: Xylus is clean and light weight wordpress theme powered by bootstrap. It  is a fully responsive theme that looks great on any device. Make it yours with a custom menu, header image, and background.
-Version: 1.0
+Author URI: https://github.com/xylusinfo/
+Description: Xylus is clean and light-weight wordpress theme for bloggers and powered by bootstrap. It is a fully responsive theme that looks great on any device. This theme is licenced under general public licence. Everyone can modify and redistribute it. Make it yours with a custom menu, header image, and background.
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: xylus
-Tags: blue, gray, white, light, one-column, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, sticky-post, threaded-comments, theme-options
+Tags: blue, gray, white, light, one-column, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, sticky-post, threaded-comments
 */
 
 
-/* =WordPress Core
--------------------------------------------------------------- */
 .alignnone {
     margin: 5px 20px 20px 0;
 }
@@ -56,7 +54,7 @@ a img.aligncenter {
 .wp-caption {
     background: #fff;
     border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
+    max-width: 96%;
     padding: 5px 3px 10px;
     text-align: center;
 }
@@ -125,20 +123,15 @@ img{
 
 }
 
-/************/
-
-
 body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-family: 'Lora', 'Times New Roman', serif;*/
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
   font-size: 16px;
   color: #404040;
   background-color: #FAFAFA;
 }
 p {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  /*margin: 30px 0;*/
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.5;
 }
 
 p a {
@@ -151,7 +144,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-weight: 800;*/
+ 
 }
 a {
   color: #0085a1;
@@ -228,7 +221,6 @@ hr.small {
     backface-visibility: hidden;
   }
   .navbar-custom.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -252,7 +244,6 @@ hr.small {
     color: #0085a1;
   }
   .navbar-custom.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
@@ -585,7 +576,6 @@ body {
 }
 
 .media-heading {
-    /* font-size: 16px !important; */
     margin-top: 0 !important;
 }
 
@@ -597,9 +587,7 @@ body {
 }
 
 .btn-search{
-
     padding: 6px 12px;
-
     line-height: 1.42857143;
     border-radius: 4px;
     -webkit-user-select: none;
