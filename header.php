@@ -10,14 +10,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <?php
-    if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
     wp_head();
     ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/respond.min.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/respond.js"></script>
     <![endif]-->
 
 </head>

@@ -15,7 +15,7 @@ function xylus_customize_register($wp_customize) {
     $wp_customize->add_setting(
         'xylus_copyright',
         array(
-            'default' => 'Copyright 2015 Xylus Wordress Theme',
+            'default' => __('Copyright 2015 Xylus Wordress Theme', 'xylus' ),
             'sanitize_callback' => 'sanitize_text_field'
         )
     );
