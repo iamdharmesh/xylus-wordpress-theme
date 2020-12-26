@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          git switch -
+      - name: Checkout PR
+        uses: dawidd6/action-checkout-pr@v1
+        with:
+          pr: ${{ github.event.pull_request.number }}
       - name: WordPress .pot File Generator
         uses: iamdharmesh/action-wordpress-pot-generator@v1.0.1
         with:
