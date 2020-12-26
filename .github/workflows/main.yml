@@ -1,0 +1,19 @@
+name: WP_POT_Generate
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  WP_POT_Generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git switch -
+      - name: WordPress .pot File Generator
+        uses: iamdharmesh/action-wordpress-pot-generator@v1.0.1
+        with:
+          destination_path: './languages'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
