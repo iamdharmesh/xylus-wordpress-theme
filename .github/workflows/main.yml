@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  WP_POT_Generate:
+  WP_Generate_POT:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
