@@ -11,7 +11,7 @@ Xylus is clean and light weight wordpress theme powered by bootstrap. It  is a f
 
 # Frequently Asked Questions
 
-1.)How do I change the Header Image?
+1.) How do I change the Header Image?
 
 You can change the colors of your site easily using Twenty Fifteen.
 1. In your admin panel, go to Appearance -> Customize.
@@ -20,7 +20,7 @@ You can change the colors of your site easily using Twenty Fifteen.
 4. Once you are happy with your Header image you can click save and your changes will be reflected on your live site.
 
 
-2.)How do I add the Social Links to the sidebar?
+2.) How do I add the Social Links to the sidebar?
 
 Xylus allows you display links to your social media profiles, like Twitter and Facebook, with icons.
 1. In your admin panel, go to Appearance -> Customize.
