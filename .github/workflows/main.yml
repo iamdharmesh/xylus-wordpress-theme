@@ -1,7 +1,7 @@
 name: WP_POT_Generate
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [ master ]
 
 jobs:
@@ -14,4 +14,4 @@ jobs:
         with:
           destination_path: './languages'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
