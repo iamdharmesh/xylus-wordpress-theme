@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
       - name: WordPress .pot File Generator
         uses: iamdharmesh/action-wordpress-pot-generator@develop
         with:
           destination_path: './languages'
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+
