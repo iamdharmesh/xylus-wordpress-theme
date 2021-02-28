@@ -32,6 +32,7 @@ Xylus allows you display links to your social media profiles, like Twitter and F
 
 * Facebook
 * GitHub
+
 * Google+
 * LinkedIn
 * Pinterest
